@@ -54,7 +54,7 @@ The visualization below shows the distribution of employees who left versus thos
 - Exploratory data analysis
 
 ## How to Run the Project
-git clone <>
+git clone <https://github.com/asonwabekhumalo/Employee-Data-Cleaning>
 
 ## Conclusion
 The analysis successfully identified and addressed the duplicate records in the dataset. Exploratory data analysis revealed several patterns associated with employee turnover, including age, education, gender, joining year, work location, and whether employees had been temporarily unassigned from work. These insights can help the company better understand employee turnover and identify areas where employee retention strategies could be improved. 

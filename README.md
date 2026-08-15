@@ -13,18 +13,16 @@ This project analyses a company's employee dataset to identify inconsistencies, 
 - Provide insights that could help the company improve employee retention.
 
 ## Dataset
-### Data Source: 
-- IBM HR Analytics Employee Attrition & Performance dataset - Kaggle
-File Format: CSV (.csv)
-Number of Records: 1,470
-Number of Features: 35
-The dataset consists of 9 columns and 4653 rows. 
+The dataset is provided in CSV format and contains employee-level information relating to education, work location, compensation, and other employment characteristics. The dataset contains 4653 records and 9 variables, including the target variable. The target variable indicates whether an employee has left the company.
 
 ## Data Quality Issues
+The only data quality issue identified was the presence of 1889 duplicated rows. 
 
 ## Data Cleaning Process
+The data was cleaned by removing duplicate rows to ensure that the analysis of factors associated with employee turnover was accurate and reliable.
 
 ## Exploratory Data Analysis
+<img src="images/employee_turnover.png" width="600">
 
 ## Key Findings
 

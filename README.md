@@ -13,6 +13,11 @@ This project analyses a company's employee dataset to identify inconsistencies, 
 - Provide insights that could help the company improve employee retention.
 
 ## Dataset
+### Data Source: 
+- IBM HR Analytics Employee Attrition & Performance dataset - Kaggle
+File Format: CSV (.csv)
+Number of Records: 1,470
+Number of Features: 35
 The dataset consists of 9 columns and 4653 rows. 
 
 ## Data Quality Issues

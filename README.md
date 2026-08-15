@@ -22,16 +22,43 @@ The only data quality issue identified was the presence of 1889 duplicated rows.
 The data was cleaned by removing duplicate rows to ensure that the analysis of factors associated with employee turnover was accurate and reliable.
 
 ## Exploratory Data Analysis
+Visualizations were used to analyze the distributions in the company and identify the factors associated with the company's employee turnover. 
+
+The visualization below shows the distribution of employees who left versus those who stayed.
 <img src="images/employee_turnover.png" width="600">
 
-## Key Findings
+### Key Findings
+- 39.4% employees left.
+- The company has predominantly employed younger individuals.
+- Majority of the employees hold a bachelor's degree.
+- The company's gender distribution is relatively even
+  
+### The following factors are associated with employees leaving the company:
+- Age: Younger employees have a higher turnover.
+- Education: People holding a master's degree have a high turnover.
+- Gender: Females have a high turnover.
+- Joining Year: A large number of employees left in 2018, which is the most recent year of the dataset.
+- Place of work: Employees employed at Pune have a high turnover.
+- Benched employees: Employee who have never been unassigned with work have a low turnover. 
 
 ## Tools and Technologies
+- Python
+- pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 ## Project Structure
+- Data exploration
+- Data cleaning
+- Exploratory data analysis
 
 ## How to Run the Project
+git clone <>
 
 ## Conclusion
+The analysis successfully identified and addressed the duplicate records in the dataset. Exploratory data analysis revealed several patterns associated with employee turnover, including age, education, gender, joining year, work location, and whether employees had been temporarily unassigned from work. These insights can help the company better understand employee turnover and identify areas where employee retention strategies could be improved. 
 
 ## Future Improvements
+- Future assess why employees in certain groups have a high turnover.
+- Develop a machine learning model to predict employee turnover
